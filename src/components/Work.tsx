@@ -64,11 +64,13 @@ const Work = () => {
               name: "Incentive Management System",
               category: "Enterprise Web App",
               tools: "PHP, Laravel, CI4, JavaScript, AWS",
+              image: "/images/my-incentive.png"
             },
             {
               name: "File Sharing App",
               category: "Personal Project",
               tools: "Node.js, MongoDB, GridFS, MongoAtlas",
+              image: "/images/file-sharing-service.png"
             },
           ].map((project, index) => (
             <div className="work-box" key={index}>

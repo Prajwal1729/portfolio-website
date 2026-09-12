@@ -86,7 +86,7 @@ const Work = () => {
                 <h4>Tools and features</h4>
                 <p>{project.tools}</p>
               </div>
-              <WorkImage image={project.image} alt={project.name} />
+              <WorkImage image={project.image ?? "/images/placeholder.webp"} alt={project.name} />
             </div>
           ))}
         </div>
